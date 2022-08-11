@@ -58,7 +58,6 @@ class _HomePageState extends State<HomePage> {
       });
     }
   }
-//
   Future _cropImage() async {
     final croppedFile = await ImageCropper().cropImage(
         sourcePath: imageFile!.path,
